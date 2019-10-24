@@ -1,0 +1,24 @@
+{
+  "name": "rtl-snippets",
+  "displayName": "rtl-snippets",
+  "description": "Testing library snippets for React",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "publisher": "diegogurgel",
+  "repository": {
+    "url": "https://github.com/diegogurgel/rtl-snippets.git"
+  }
+}

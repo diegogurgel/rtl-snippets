@@ -1,0 +1,19 @@
+{
+  "rtl-snippets": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rtl",
+    "body": [
+      "import React from 'react';",
+      "import { render } from '@testing-library/react';",
+      "import ${2:Component} from '${1:../}';",
+      "\n",
+      "describe('$3', () => {",
+      "  it('Should $4', () => {",
+      "    const { container } = render(<$2/>);",
+      "    expect(container.firstChild).toMatchSnapshot();",
+      "  });",
+      "});"
+    ],
+    "description": "Basic testing structure string testing library"
+  }
+}
